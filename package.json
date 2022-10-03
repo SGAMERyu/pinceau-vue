@@ -9,13 +9,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "pinceau": "^0.1.28",
-    "vue": "^3.2.37"
+    "pinceau": "*",
+    "vue": "^3.2.40"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^3.1.0",
-    "typescript": "^4.6.4",
-    "vite": "^3.1.0",
-    "vue-tsc": "^0.40.4"
+    "@vitejs/plugin-vue": "^3.1.2",
+    "typescript": "^4.8.4",
+    "vite": "^3.1.4",
+    "vue-tsc": "^0.40.13"
   }
 }

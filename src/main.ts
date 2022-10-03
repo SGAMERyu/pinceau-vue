@@ -1,6 +1,4 @@
-import { createApp } from 'vue'
-import './style.css'
-import App from './App.vue'
-// import './components/button/button.style'
+import 'pinceau.css'
+import PiButton from "./components/button/button.vue";
 
-createApp(App).mount('#app')
+console.log(PiButton)
