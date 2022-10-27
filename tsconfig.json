@@ -13,7 +13,7 @@
     "lib": ["ESNext", "DOM"],
     "skipLibCheck": true
   },
-  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue", "tokens.config.ts", "tokens.config.ts"],
   "references": [{ "path": "./tsconfig.node.json" }],
   "vueCompilerOptions": {
     "plugins": ["pinceau/volar"]

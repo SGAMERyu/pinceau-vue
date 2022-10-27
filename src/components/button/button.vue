@@ -22,7 +22,9 @@ css({
       borderRadius: '4px',
       fontWeight: '500',
       border: 'none',
-      color: (props) => '{color.black}'
+      '&:hover': {
+      backgroundColor: (props) => '{colors.black}'
+    },
     }
 })
 </style>

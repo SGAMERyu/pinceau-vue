@@ -5,12 +5,12 @@
   "type": "module",
   "scripts": {
     "dev": "vite build",
-    "doc": "histoire dev",
+    "play": "histoire dev",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
-    "pinceau": "latest",
+    "pinceau": "0.6.0",
     "recast": "^0.21.5",
     "vue": "^3.2.40"
   },
