@@ -2,10 +2,27 @@
   <button class="pi-btn"><slot></slot></button>
 </template>
 
-<style lang="ts">
+<script lang="ts" setup>
+interface Props {
+  color: string
+}
+
+const props = defineProps<Props>()
+</script>
+
+<style lang="ts" scoped>
 css({
     '.pi-btn': {
-      width: '100px'
+      display: 'flex',
+      justifyContent: 'center',
+      alignItems: 'center',
+      outline: 'none',
+      background: 'transparent',
+      cursor: 'pointer',
+      borderRadius: '4px',
+      fontWeight: '500',
+      border: 'none',
+      color: (props) => '{color.black}'
     }
 })
 </style>
